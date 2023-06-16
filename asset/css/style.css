@@ -1,0 +1,12 @@
+.changeNavBarColor{
+    background-color: #F4F6F6;
+    padding: 5px 30px;
+}
+.navbar-brand img{
+    width: 50px;
+}
+/* change target space on home resume which is ul */
+.targetSpaceEachUL a{
+margin: 0px 10px;
+color: black;
+}
