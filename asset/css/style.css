@@ -1,3 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    overflow-x: hidden;
+}
+
 .changeNavBarColor{
     background-color: #F4F6F6;
     padding: 5px 30px;
