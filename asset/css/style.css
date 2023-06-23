@@ -7,16 +7,52 @@
 html,body{
     overflow-x: hidden;
 }
-
+/*target whole nav Bar*/
 .changeNavBarColor{
     background-color: #F4F6F6;
-    padding: 5px 30px;
+    padding: 15px 30px;
 }
+/*logo*/
 .navbar-brand img{
-    width: 50px;
+    width: 60px;
 }
 /* change target space on home resume which is ul */
 .targetSpaceEachUL a{
 margin: 0px 10px;
 color: black;
 }
+
+.control-mainBox{
+height:80vh;
+
+}
+
+.controlImage img{
+    width: 400px;
+  height: 400px;
+  object-fit: cover;
+border-radius: 100%;
+position: absolute;
+bottom: 0;
+right: 0;
+
+}
+
+.controlImage{
+    height: 80vh;
+   
+    position: relative;
+    /* display: flex;
+    align-items: flex-end;
+    justify-content: flex-end; */
+
+}
+
+.controlText{
+
+padding: 10px;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+
