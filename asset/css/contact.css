@@ -1,5 +1,45 @@
+.wrapperControlAll{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+
+}
+
 .mainBox{
     width: 50%;
-    background-color: blueviolet;
+   background-color: bisque;
+    height: auto;
+ 
+    padding: 20px;
+}
+.changeSizeTextArea{
+    height: 200px;
+}
+
+.controlFnameLname{
+    display: flex;
+
+}
+.controlFnameLname label{
+    width: 50%;
+}
+
+.custumeControlFname{
+    margin-right: 10px;
+}
+/* image section */
+
+.imageSide{
+    background-image: url("https://images.pexels.com/photos/6340634/pexels-photo-6340634.jpeg?auto=compress&cs=tinysrgb&w=800");
+    width: 50%;
+    background-size: cover;
+    background-position: center center;
+}
+.custumeButton{
+    display: block;
     margin: auto;
+    margin-top: 30px;
+    width: 150px;
+    border: 2px solid black;
 }
