@@ -1,0 +1,14 @@
+
+.carousel-inner{
+
+}
+.carousel{
+    height: 30vh;  
+}
+.carousel-item img{
+    height: 30vh  ;
+    object-fit: cover;
+}
+.carousel-item h5,p{ 
+ color: white;
+}
