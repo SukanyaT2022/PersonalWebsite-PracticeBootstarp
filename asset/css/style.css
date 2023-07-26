@@ -61,6 +61,24 @@ margin-bottom: 100px;
     text-align: justify;
 }
 footer{
-    background-color: #EB984E;
+    background:linear-gradient(30deg, purple,pink);
+ 
     
 }
+.allContact{
+display: flex;
+margin: 20px 0px;
+}
+.small-footer{
+    margin-left: 20px;
+}
+.contact{
+margin-bottom: 20px;
+}
+
+.socialMedia i{
+font-size: 25px;
+margin: 0px 5px;
+
+}
+
