@@ -23,7 +23,7 @@ color: black;
 }
 
 .control-mainBox{
-height:80vh;
+height:65vh;
 
 }
 
@@ -33,13 +33,14 @@ height:80vh;
   object-fit: cover;
 border-radius: 100%;
 position: absolute;
-bottom: 0;
+bottom: -10px;
 right: 0;
+
 
 }
 
 .controlImage{
-    height: 80vh;
+    height: 60vh;
    
     position: relative;
     /* display: flex;
@@ -67,18 +68,41 @@ footer{
 }
 .allContact{
 display: flex;
-margin: 20px 0px;
+padding-left: 40px;
+
 }
-.small-footer{
-    margin-left: 20px;
+.small-footer {
+    display: flex;
+}
+.small-footer p{
+  margin-right: 10px;
 }
 .contact{
 margin-bottom: 20px;
+padding-left: 40px;
+
+}
+.socialMedia{
+    padding-left: 40px;
+   
 }
 
 .socialMedia i{
 font-size: 25px;
-margin: 0px 5px;
-
+margin-right: 10px;
 }
 
+.controlSizeSearchBox{
+width: 400px;
+}
+.changeSizeColorButton:hover{
+  background-color:green ;
+  border: none;
+}
+.checkBoxMain {
+    margin-top: 20px;
+
+}
+.controlKeepinTouch h4{
+    margin: 15px 0px;
+}
