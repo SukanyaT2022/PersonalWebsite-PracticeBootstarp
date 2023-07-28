@@ -12,3 +12,36 @@
 .carousel-item h5,p{ 
  color: white;
 }
+/* line 16 already have a size for col width 100%
+and define height and object fit becasue all image not equal size */
+.targetTextetIMG img{
+ width: 100%;
+ /*boxwidth  already define by bootstrap */ 
+height: 300px;
+object-fit: cover;
+}
+/* we move text down from hidding */
+.targetTextetIMG p{
+ color:black;
+ margin-top: 20px;
+    }
+
+    /* custume grid no boostrap */
+    .mainbox{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        /* if not use 1 fr 2 fr 2 fr 1 fr
+        or 20% 40% 40% 205 */
+        grid-gap:20px;
+        grid-template-rows: 200px 200px;
+        /* grid-template-row for define height */
+
+
+    }
+    .smallBox img{
+ width: 100%;
+ object-fit: cover;
+    }
+    .second-smallbox{
+grid-row: 1/3;
+    }
