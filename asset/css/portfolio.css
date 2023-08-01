@@ -33,15 +33,19 @@ object-fit: cover;
         /* if not use 1 fr 2 fr 2 fr 1 fr
         or 20% 40% 40% 205 */
         grid-gap:20px;
-        grid-template-rows: 200px 200px;
+        grid-template-rows: 200px 100px 200px;
         /* grid-template-row for define height */
 
 
     }
     .smallBox img{
  width: 100%;
+ height: 100%;
  object-fit: cover;
     }
     .second-smallbox{
 grid-row: 1/3;
+    }
+    .firstsmallBox{
+        grid-row: 1/4;
     }
